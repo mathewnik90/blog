@@ -1,1 +1,18 @@
 theme: jekyll-theme-cayman
+page_title: The perpetual observer | Human, foodie, programmer
+title: The perpetual observer
+description: I have started this blog to pen down some of my experience with technology, food and life.
+show_downloads: false
+google_analytics: UA-130251777-1
+google_site_verification: 
+social:
+  name: Nikhil Mathew
+  links:
+    - http://github.com/mathewnik90/
+    - https://www.facebook.com/nikhilmathew1990
+    - https://www.linkedin.com/in/mathewnikhil/
+    - https://plus.google.com/u/0/+NikhilMathew1990
+pages_list:
+  Home: '/index'  
+  About: '/about'
+  Archive: '/archive'

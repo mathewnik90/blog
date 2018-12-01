@@ -1,0 +1,42 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.site-navigation {
+    
+
+    @include large {
+      max-width: 64rem;
+      padding: 1rem 6rem;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+  
+    @include medium {
+      padding: 1rem 4rem;
+      font-size: 1.1rem;
+    }
+  
+    @include small {
+      padding: 1rem 1rem;
+      font-size: 1rem;
+    }
+
+    a {
+        padding-left: 1rem;
+    }
+
+    a:nth-child(1){
+        padding-left: 0;
+    }
+
+    .current-page{
+        font-weight: 800;
+    }
+}
