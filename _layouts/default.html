@@ -14,7 +14,9 @@
     <meta charset="UTF-8">
 
 {% seo title=false %}
-    <title>{{ site.page_title }}</title>
+    
+{% assign final_title = site.page_title | append: ' | '| append: page.title %}
+    <title>{{ final_title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -57,11 +59,27 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      {% if page.tags %}
+      {% assign sorted_tags = page.tags | sort %}
+      Tags: {%for tag in sorted_tags %}
+      <span class="tag">{{tag}}</span>
+      {% endfor %}
+      {% endif %}
+
+      {% include related.html %}
+
+      {% include comments.html %}
+
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner">This <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by @<a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <p>&copy; {{ site.name }} {{ site.time | date: '%Y' }} | All Rights Reserved. </p>
+        <div class="license">          
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+          </a>
+          <br />
+          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        
+        </div>
+        <p>&copy; 2018 - {{ site.time | date: '%Y' }} <a href="/about">Nikhil Mathew</a> </p>
       </footer>
     </main>
   </body>

@@ -5,6 +5,7 @@ description: I have started this blog to pen down some of my experience with tec
 show_downloads: false
 google_analytics: UA-130251777-1
 google_site_verification: 
+excerpt_separator: <!--more-->
 social:
   name: Nikhil Mathew
   links:
