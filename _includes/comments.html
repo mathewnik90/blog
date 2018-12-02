@@ -7,7 +7,7 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = {{'"' | append: base.url | append: page.url | append: '"'}};  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url = {{'"' | append: site.url | append: page.url | append: '"'}};  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = {{'"' | append: page.id | append: '"'}}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
