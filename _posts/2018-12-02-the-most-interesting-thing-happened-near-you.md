@@ -7,7 +7,7 @@ related: true
 title: The most important thing happened near you (Drought forecast)
 ---
 
-> Based on the reports from meteorological department, temperatures of less than -5 deg celsius are expected in northern states in India. The change is  attributed to recent change in the direction of the northeast winds. We have received predictions that these extreme weather conditions will prevail for 2-3 weeks. These weather conditions will hamper the entire transport system. There will be shortage of food and water. In the wake of these conditions, government has issued a notice that people should accumulate as much food as possible. I have already bought the food and stored for my family. Do not ignore the message and go ahead and do the same for the welfare of your family.
+> Based on the reports from meteorological department, temperatures of less than<!--more--> -5 deg celsius are expected in northern states in India. The change is  attributed to recent change in the direction of the northeast winds. We have received predictions that these extreme weather conditions will prevail for 2-3 weeks. These weather conditions will hamper the entire transport system. There will be shortage of food and water. In the wake of these conditions, government has issued a notice that people should accumulate as much food as possible. I have already bought the food and stored for my family. Do not ignore the message and go ahead and do the same for the welfare of your family.
 >
 > Request you to forward this message to friends and family as soon as possible so that they do not starve and suffer during such dire circumstances.
 
