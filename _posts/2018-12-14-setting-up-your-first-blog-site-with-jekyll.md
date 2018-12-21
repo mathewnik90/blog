@@ -25,7 +25,7 @@ These steps should take 1-2 hours to complete depending on your experience with 
 2. Next follow [these instructions](https://guides.github.com/features/pages/) to set up your first [https://repositoryname.github.io](https://repositoryname.github.io)  page. The subdomain name is same as your repository name. This will eventually change once you use your custom domain. 
 3. Even though it is not mentioned in the guide, I would strongly recommend to `_Enforce HTTPS`_ on the webpage. Benefits of using HTTPS are readily available with a basic google search ([Example](https://www.bluecorona.com/blog/reasons-to-have-https-website)).
 
- ![](./assets/images/blog-support/setting_up_blog_custom_domain.jpg)
+ ![]({{site.baseurl}}/assets/images/blog-support/setting_up_blog_custom_domain.jpg)
 
 **Step 3** : Update the content on the webpage
 

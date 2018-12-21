@@ -26,6 +26,9 @@ The fake news problem has disturbed the social trust fabric. The primary problem
 ### Steps to curb the problem
 Fake news is such a huge problem since people forward messages without giving a second thought. People tend to believe and share unreliable content that they read on the Internet. It is time that we as a society realize that each of us is a cog in the system that is mongering fake news. 
 Here are the steps you can take next time you get a sensational news:
+
+![]({{site.baseurl}}/assets/images/blog-support/the_most_interesting_steps.jpg)
+
 1.	Avoid the urge to immediately forward, share or retweet the message. 
 2.	Verify the news from multiple reliable news sources. Follow news from reliable news sources.
 3.	Evaluate the news critically. If getting a $1 million inheritance is too good to be true, it probably is.
