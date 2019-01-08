@@ -2,9 +2,6 @@
 layout: default
 ---
 
-## About me
-
-
 <div class="profile-picture">
     <div class="outer-wrapper">
         <div class="inner-wrapper">
@@ -12,6 +9,8 @@ layout: default
         </div>
     </div>
 </div>
+
+## About me
 
 I belong to the species called programmers. As a part of my job, I use technology to improve or ease the lives of people. I have experience solving problems for Marketing, Sales, Human Resources and Public Sector. I am proficient on Cloud Technologies and Business Intelligence. I have built, managed and made productional Machine Learning pipelines as well as the technologies mentioned earlier. 
 
